@@ -1,5 +1,5 @@
 # DeepLearning-Numbers
-Sınıflandırma Katmanı(Classification Layer)
+Sınıflandırma Katmanı(Classification Layer):
 Bu katman tam bağlantılı katmandan sonra gelir. Derin öğrenme mimarilerinin bu
 katmanında sınıflandırma işlemi yapılmaktadır. Bu katmanın çıkış değeri, sınıflandırması
 yapılacak nesne sayısına eşittir. Örneğin 15 farklı nesnenin sınıflandırılması yapılacaksa,
@@ -9,7 +9,7 @@ elde edilir. Bu katmanda farklı sınıflandırıcılar kullanılmaktadır. Ço�
 dolayı softmax sınıflandırıcı tercih edilir. Sınıflandırmada 15 farklı nesne 0-1 aralığında
 belli bir değerde çıkış üretir. 1’e yakın sonucu üreten çıkış, ağın tahmin ettiği nesne olduğu
 anlaşılır.
-2.2.Evrişimsel Sinir Ağının Eğitilmesi
+2.2.Evrişimsel Sinir Ağının Eğitilmesi:
 ESA’nın eğitilmesi adımlar halinde aşağıda belirtilmiştir.
 Adım 1. Öncelikle bir ESA modeli oluşturulur. Bu modelde konvolüsyon katman sayısı,
 havuzlama katman sayısı, tam bağlantılı katman sayısı ve sınıflandırma katmanı belirlenir.
